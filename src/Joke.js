@@ -5,6 +5,7 @@ function Joke(props){
     return(
         <div className="jokes">
             <h1 style={{display: !props.question && "none"}}>Question: {props.question}</h1>
+            <h1 style={{display: !props.question && "none"}}>Question: {props.question}</h1>
             <h3 style={{color: !props.question && "#888888"}}>Answer: {props.punchline}</h3>
         </div>
     )
