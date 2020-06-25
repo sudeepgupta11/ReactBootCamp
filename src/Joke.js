@@ -1,6 +1,6 @@
 import React from "react"
 
-function Joke(props){
+function Joke(props){ 
     console.log(props)
     return(
         <div className="jokes">
